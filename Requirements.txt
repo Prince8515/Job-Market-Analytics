@@ -1,0 +1,8 @@
+# Job Market Analytics - Project Dependencies
+
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+sqllite
