@@ -105,9 +105,39 @@ Analysis of job-posting activity over time.
 <p align="center"> <img src="visualizations/top_roles_jobs.png" width="45%"> <img src="visualizations/top_source_of_jobs.png" width="45%"> </p> <p align="center"> <img src="visualizations/job_postings_by_month.png" width="45%"> </p>
 
 
-👨‍💻 Project Information
+## 📁 Project Structure
 
-Project: Job Market Analytics & Career Insights
-Domain: Data Analytics
-Language: Python
-Status: 🚧 Development
+```text
+Job-Market-Analytics/
+│
+├── clean-data/
+│   └── job_market_cleaned.csv
+│
+├── raw-data/
+│   └── gsearch_jobs_raw_data.csv
+│
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_Eda.ipynb
+│   ├── 04_SQL_Analysis.ipynb
+│   └── Dashboard_app.py
+│
+├── visualizations/
+│   ├── job_postings_by_month.png
+│   ├── top_roles_jobs.png
+│   └── top_source_of_jobs.png
+│
+├── .gitattributes
+├── .gitignore
+└── README.md
+```
+## 👨‍💻 Project Information
+
+**Project:** Job Market Analytics & Career Insights  
+**Domain:** Data Analytics  
+**Language:** Python  
+**Database:** SQLite  
+**Dashboard:** Streamlit  
+**Version Control:** Git & GitHub  
+**Status:** 🚧 Active Development
