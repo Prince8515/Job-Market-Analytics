@@ -132,6 +132,22 @@ Job-Market-Analytics/
 ├── .gitignore
 └── README.md
 ```
+🚀 How to Run
+```text
+1. Clone the repository
+git clone https://github.com/Prince8515/Job-Market-Analytics.git
+
+Then move into the project folder:
+cd Job-Market-Analytics
+
+2. Install dependencies
+pip install pandas numpy matplotlib plotly streamlit
+
+3. Run the dashboard
+streamlit run notebooks/Dashboard_app.py
+
+```
+
 ## 👨‍💻 Project Information
 
 **Project:** Job Market Analytics & Career Insights  
